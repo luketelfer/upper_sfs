@@ -1,0 +1,7 @@
+output_files/
+bash_scripts/outlogs/
+input_files/wrf_forcings/
+input_files/wrf.nc
+parflow_latest.sif
+.*
+!/.gitignore
