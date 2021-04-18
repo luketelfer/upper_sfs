@@ -1,7 +1,9 @@
 output_files/
 bash_scripts/outlogs/
-input_files/wrf_forcings/
+bash_scripts/exp/bash/*/outlogs/
+input_files/wrf_inputs/
 input_files/wrf.nc
 parflow_latest.sif
 .*
+__*
 !/.gitignore

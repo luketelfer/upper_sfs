@@ -3,7 +3,8 @@ lappend auto_path $env(PARFLOW_DIR)/bin
 package require parflow
 namespace import Parflow::*
 
-cd /scratch/ltelfer/upper_sfs/input_files/wrf_forcings
+set wrfdir [lindex $argv 0]
+cd /scratch/ltelfer/upper_sfs/input_files/wrf_inputs/${wrfdir}
 
 #-----------------------------------------------------------------------------
 # File input version number
